@@ -3,17 +3,18 @@ import { useFlower } from "./flowerProvider.js";
 
 const contentTarget = document.querySelector(".flowerContainer")
 
-const allFlowers = useFlower()
 
-const render = () => {
-    contentTarget.innerHTML = allFlowers.map(currentFlowerObject)
+const render = (allFlowers) => {
+    contentTarget.innerHTML = allFlowers.map(
+        (flowerObject) => {
+            
+     
+        
+            return Flower(flowerObject)
 
-        return Flower(currentFlowerObject)
-
-    
+    }).join("")
 }
-
 export const FlowerList = () => {
-    render()
+    const allFlowers = useFlower()
+    render(allFlowers)
 }
-export default FlowerList

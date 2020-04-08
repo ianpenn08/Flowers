@@ -1,3 +1,5 @@
-import FlowerList from "./flowerList.js";
+import { FlowerList } from "./flowerList.js";
+import { getFlowers } from "./flowerProvider.js";
 
-FlowerList()
+getFlowers()
+.then(FlowerList)
