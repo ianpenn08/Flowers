@@ -1,0 +1,25 @@
+
+
+.retailer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 15px solid;
+    border-color: rgb(167, 47, 157);
+    width: 33%;
+    padding: 10px;
+    background-color: rgb(53, 218, 230);
+    border-radius: 10px;
+    line-height: 1.5;
+}
+.flower{
+flex-basis: 65%;
+margin-top: 20px;
+margin-bottom: 20px;
+border: 15px solid;
+border-color: rgb(167, 47, 157);
+width: 33%;
+padding: 10px;
+background-color: rgb(53, 218, 230);
+border-radius: 10px;
+line-height: 1.5;
+}
