@@ -25,5 +25,43 @@
             "commonName": "Iris",
             "color": "purple"
         }
-    ]
-}
+    ],
+
+        "retailers": [
+            {
+                "id":1,
+                "name": "Bob's Flowers",
+                "city": "Los Angeles",
+                "state": "CA",
+                "address": "242 Pretty Lane"
+            },
+            {
+                "id":2,
+                "name": "Nancy's Flowers",
+                "city": "Nashville",
+                "state": "TN",
+                "address": "2425 Country Rd"
+            },
+            {
+                "id":3,
+                "name": "Flowers & More",
+                "city": "New York",
+                "state": "NY",
+                "address": "1234 Not Much Lane"
+            },
+            {
+                "id":4,
+                "name": "Dollar Flowers",
+                "city": "Dallas",
+                "state": "TX",
+                "address": "175 Cheap Way"
+            },
+            {
+                "id":5,
+                "name": "Plants!",
+                "city": "Minden",
+                "state": "NE",
+                "address": "0004 Pretty Lame Lane"
+            }
+        ]
+    }
