@@ -33,40 +33,40 @@
                 "name": "Bob's Flowers",
                 "city": "Los Angeles",
                 "state": "CA",
-                "address": "242 Pretty Lane",
-                "distributorId": 1
+                "address": "242 Pretty Lane"
+            
             },
             {
                 "id":2,
                 "name": "Nancy's Flowers",
                 "city": "Nashville",
                 "state": "TN",
-                "address": "2425 Country Rd",
-                "distributorId": 2
+                "address": "2425 Country Rd"
+                
             },
             {
                 "id":3,
                 "name": "Flowers & More",
                 "city": "New York",
                 "state": "NY",
-                "address": "1234 Not Much Lane",
-                "distributorId": 3
+                "address": "1234 Not Much Lane"
+            
             },
             {
                 "id":4,
                 "name": "Dollar Flowers",
                 "city": "Dallas",
                 "state": "TX",
-                "address": "175 Cheap Way",
-                "distributorId": 2
+                "address": "175 Cheap Way"
+           
             },
             {
                 "id":5,
                 "name": "Plants!",
                 "city": "Minden",
                 "state": "NE",
-                "address": "0004 Pretty Lame Lane",
-                "distributorId": 1
+                "address": "0004 Pretty Lame Lane"
+            
             }
         ],
         "distributors": [
@@ -76,6 +76,7 @@
                 "city": "Los Angeles",
                 "state": "CA",
                 "address": "56 Full House Lane"
+                
             },
             {
                 "id":2,
@@ -92,5 +93,89 @@
                 "address": "4356 Not Much Lane"
             }
         
-        ]
-    }
+        ],
+
+            "nurseries": [
+                { 
+                    "id":1,
+                    "name": "Hooseirs Flowers"
+                },
+                { 
+                    "id":2,
+                    "name": "Toots Flowers"
+                },
+                { 
+                    "id":3,
+                    "name": "Terrys Flowers"
+                },
+                { 
+                    "id":4,
+                    "name": "Blah Flowers"
+                },
+                { 
+                    "id":5,
+                    "name": "Mo Flowers"
+                }
+
+            ],
+
+            "nurseryFlowers":[
+                {
+                    "id":1,
+                    "nurseryId":1,
+                    "flowerId":1
+                },
+                {
+                    "id":2,
+                    "nurseryId":2,
+                    "flowerId":2
+                },
+                {
+                    "id":3,
+                    "nurseryId":3,
+                    "flowerId":3
+                },
+                {
+                    "id":4,
+                    "nurseryId":4,
+                    "flowerId":4
+                },
+                {
+                    "id":5,
+                    "nurseryId":5,
+                    "flowerId":5
+                }
+            ],
+
+            "distributeNurseries":[
+                        {
+                            "id":1,
+                            "distributorId":1,
+                            "nurseryId":1
+                        },
+                        {
+                            "id":1,
+                            "distributorId":2,
+                            "nurseryId":2
+                        },
+                        {
+                            "id":1,
+                            "distributorId":3,
+                            "nurseryId":3
+                        },
+                        {
+                            "id":1,
+                            "distributorId":1,
+                            "nurseryId":4
+                        },
+                        {
+                            "id":1,
+                            "distributorId":2,
+                            "nurseryId":5
+                        }
+
+
+
+            ]
+
+        }
