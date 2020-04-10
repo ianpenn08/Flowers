@@ -1,4 +1,7 @@
-
+#container{
+    border:  20px solid black;
+    align-content: flex-start;
+}
 
 .retailer{
     margin-top: 20px;
@@ -12,7 +15,6 @@
     line-height: 1.5;
 }
 .flower{
-flex-basis: 65%;
 margin-top: 20px;
 margin-bottom: 20px;
 border: 15px solid;

@@ -33,35 +33,64 @@
                 "name": "Bob's Flowers",
                 "city": "Los Angeles",
                 "state": "CA",
-                "address": "242 Pretty Lane"
+                "address": "242 Pretty Lane",
+                "distributorId": 1
             },
             {
                 "id":2,
                 "name": "Nancy's Flowers",
                 "city": "Nashville",
                 "state": "TN",
-                "address": "2425 Country Rd"
+                "address": "2425 Country Rd",
+                "distributorId": 2
             },
             {
                 "id":3,
                 "name": "Flowers & More",
                 "city": "New York",
                 "state": "NY",
-                "address": "1234 Not Much Lane"
+                "address": "1234 Not Much Lane",
+                "distributorId": 3
             },
             {
                 "id":4,
                 "name": "Dollar Flowers",
                 "city": "Dallas",
                 "state": "TX",
-                "address": "175 Cheap Way"
+                "address": "175 Cheap Way",
+                "distributorId": 2
             },
             {
                 "id":5,
                 "name": "Plants!",
                 "city": "Minden",
                 "state": "NE",
-                "address": "0004 Pretty Lame Lane"
+                "address": "0004 Pretty Lame Lane",
+                "distributorId": 1
             }
+        ],
+        "distributors": [
+            {
+                "id":1,
+                "name": "Bob Sagets Flower Stuff",
+                "city": "Los Angeles",
+                "state": "CA",
+                "address": "56 Full House Lane"
+            },
+            {
+                "id":2,
+                "name": "Nancy's Distribution",
+                "city": "Nashville",
+                "state": "TN",
+                "address": "876 Hallar Rd"
+            },
+            {
+                "id":3,
+                "name": "Flowers & Such",
+                "city": "New York",
+                "state": "NY",
+                "address": "4356 Not Much Lane"
+            }
+        
         ]
     }
